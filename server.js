@@ -10,8 +10,8 @@ app.set('port', process.env.PORT || 8080);
  * Definition of constants
  */
 
-// Modify here the server address
-const ws_uri = "ws://92.222.27.33:8888/kurento";
+// Modify here the kurento media server address
+const ws_uri = "ws://localhost:8888/kurento";
 
 /*
  * Definition of global variables.

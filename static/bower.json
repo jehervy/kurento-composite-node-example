@@ -1,0 +1,27 @@
+{
+  "name": "kurento-composite-node-example",
+  "version": "5.1.1-dev",
+  "description": "kurento composite node example",
+  "authors": [
+    "Miroof"
+  ],
+  "main": "index.html",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "LGPL",
+  "homepage": "http://www.kurento.org/",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.0",
+    "adapter.js": "*",
+    "kurento-utils": "5.1.0"
+  }
+}
